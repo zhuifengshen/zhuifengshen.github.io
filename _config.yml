@@ -1,0 +1,100 @@
+# Site settings
+title: Devin Blog
+SEOTitle: 张楚昭的博客 | Devin Blog
+header-img: img/home-bg.jpg
+email: zhangchuzhao@foxmail.com
+description: "Devin Blong | 张楚昭的个人博客 | 专注于移动测试,持续集成,质量监控领域 | 自动化测试人的技术天地 "
+keyword: "张楚昭, Devin, DevinZhang, @_炫Z_楚昭, 张楚昭的博客, Devin Blog, 个人博客, 测试, 测试人, 互联网, 移动互联网, 移动测试"
+url: "http://zhangchuzhao.site"              # your host, for absolute URL
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+
+# SNS settings
+RSS: true
+weibo_username:     zhangchuzhao
+zhihu_username:     zhangchuzhao
+github_username:    zhuifengshen
+#twitter_username:  zhangchuzhao
+facebook_username:  zhangchuzhao
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+duoshuo_username: Devin
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: b8c400926ac442bff18fe21a8b921688
+# Google Analytics
+ga_track_id: 'UA-76344993-2'            # Format: UA-xxxxxx-xx
+ga_domain: zhangchuzhao.site
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "*  简单  自在  爱智  求真  *"
+sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+    {
+        title: "Caizhitao",
+        href: "http://caizhitao.com"
+    },{
+        title: "CEO",
+        href: "http://zhangchuzhao.site"
+    },{
+        title: "CTO",
+        href: "http://zhangchuzhao.site"
+    },{
+        title: "CIO",
+        href: "http://zhangchuzhao.site"
+    },{
+        title: "COO",
+        href: "http://zhangchuzhao.site"
+    }
+]

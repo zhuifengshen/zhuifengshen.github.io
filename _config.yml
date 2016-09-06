@@ -1,10 +1,10 @@
 # Site settings
 title: Devin Blog
-SEOTitle: 张楚昭的博客 | Devin Blog
+SEOTitle: DevinBlog
 header-img: img/home-bg.jpg
 email: zhangchuzhao@foxmail.com
-description: "Devin Blong | 张楚昭的个人博客 | 致力于移动Android/iOS App开发,移动测试,自动化测试,持续集成,质量监控领域 | 全栈技术人,创客,思考者的天地 "
-keyword: "张楚昭, Devin, DevinZhang, @_炫Z_楚昭, 张楚昭的博客, Devin Blog, 个人博客, iOS, Android, App开发, 移动自动化测试, 移动互联网, VR, 创业, 创客"
+description: "DevinBlong | Devin的个人博客 | 致力于移动Android/iOS App开发,移动自动化测试,持续集成,质量保障 | 全栈技术人,创客,思考者的天地 "
+keyword: "Devin, DevinZhang, DevinBlog, 个人博客, iOS, Android, App开发, 移动自动化测试, 移动互联网, VR, 创业, 创客"
 url: "http://zhangchuzhao.site"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -12,11 +12,11 @@ baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 # SNS settings
 RSS: true
-weibo_username:     zhangchuzhao
-zhihu_username:     zhangchuzhao
+#weibo_username:     zhangchuzhao
+#zhihu_username:     zhangchuzhao
 github_username:    zhuifengshen
-#twitter_username:  zhangchuzhao
-#facebook_username:  zhangchuzhao
+twitter_username:   zhangchuzhao
+facebook_username:  zhangchuzhao
 
 
 
@@ -68,7 +68,7 @@ ga_domain: zhangchuzhao.site
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "*  简单  自在  爱智  求真  *"
+sidebar-about-description: "*  宁静  致远  爱智  求真  *"
 sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -82,19 +82,16 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "Caizhitao",
-        href: "http://caizhitao.com"
+        title: "李笑来",
+        href: "http://xiaolai.li/"
     },{
-        title: "CEO",
-        href: "http://zhangchuzhao.site"
+        title: "阮一峰",
+        href: "http://www.ruanyifeng.com/home.html"
     },{
-        title: "CTO",
-        href: "http://zhangchuzhao.site"
+        title: "廖雪峰",
+        href: "http://www.liaoxuefeng.com/"
     },{
-        title: "CIO",
-        href: "http://zhangchuzhao.site"
-    },{
-        title: "COO",
-        href: "http://zhangchuzhao.site"
+        title: "陈皓",
+        href: "http://coolshell.cn/"
     }
 ]

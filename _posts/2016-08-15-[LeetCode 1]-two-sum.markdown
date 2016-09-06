@@ -1,10 +1,10 @@
-﻿---
+---
 layout:     post
 title:      "[LeetCode 1] Two Sum"
-subtitle:   "每天喜刷刷"
+subtitle:   "\"喜刷刷\""
 date:       2016-08-15 20:00:00
 author:     "Devin"
-header-img: "img/2016-07-01-devin-blog.jpg"
+header-img: "img/leetcode-algorithm.jpg"
 tags:
     - 算法之道
     - LeetCode
@@ -12,25 +12,27 @@ tags:
 
 > LeetCode, Let's Begin
 
-###问题描述
+### 问题描述
 
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 You may assume that each input would have exactly one solution.
 
 Example:
->Given nums = [2, 7, 11, 15], target = 9,
+
+> Given nums = [2, 7, 11, 15], target = 9,
 Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 
 UPDATE (2016/2/13):
 The return format had been changed to zero-based indices. Please read the above updated description carefully. 
 
-###解法一
+### 解法一
 
 **解题思路:**
 暴力实现, 通过遍历所有两两组合判断, 算法复杂度:O(n^2)
 
 **代码实现:**
+
 ```java
     public int[] twoSum(int[] nums, int target) {
             for(int i = 0; i < nums.length; i++){
@@ -45,12 +47,13 @@ The return format had been changed to zero-based indices. Please read the above 
     }
 ```
 
-###解法二
+### 解法二
 
 **解题思路:**
 通过新建节点类, 用来保存每个数的数值及其下标, 并实现Comparable接口以便对其进行排序,接着便可以利用有序数组的特性进行查找, 算法复杂度:O(n)
 
 **代码实现:**
+
 ```java
     //定义Node节点类,用于保存数值和对应的下标索引
     static class Node implements Comparable<Node>{
@@ -88,12 +91,13 @@ The return format had been changed to zero-based indices. Please read the above 
     }
 ```
 
-###解法三
+### 解法三
 
 **解题思路:**
 使用HashMap存储每个数的数值及其下标, 然后使用HashMap的containKey方法便可实现算法复杂度为O(n)的遍历判断.
 
 **代码实现:**
+
 ```java
     public int[] twoSum(int[] nums, int target){
         //将每个数及其下标作为HashMap的一个元素
@@ -113,12 +117,13 @@ The return format had been changed to zero-based indices. Please read the above 
     }
 ```
 
-###解法四
+### 解法四
 
 **解题思路:**
 思路跟解法三相同, 不过对解法三进行进一步的优化, 即: 利用两个数在数组中位置有先后, 故在添加进HashMap的时候, 就可以进行是否存对应的值的判断了, 同时还可以省去两个数是否下标相同的判断, 算法复杂度O(n).
 
 **代码实现:**
+
 ```java
     public int[] twoSum(int[] nums, int target){
         Map<Integer, Integer> map = new HashMap<>();
@@ -133,5 +138,5 @@ The return format had been changed to zero-based indices. Please read the above 
     }
 ```
 
-###总结
+### 总结
 每个问题, 从不同的角度切入, 总会有不同的实现形式, 同时对于一个实现形式, 也可以不断优化每一步步骤, 从而让问题的解决方式更高效精简.

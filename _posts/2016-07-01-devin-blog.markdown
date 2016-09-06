@@ -4,7 +4,7 @@ title:      "四元搭起个性博客"
 subtitle:   " \"Welcome to Devin Blog\""
 date:       2016-07-01 20:00:00
 author:     "Devin"
-header-img: "img/2016-07-01-devin-blog.jpg"
+header-img: "img/leetcode-algorithm.jpg"
 tags:
     - 随笔
 ---

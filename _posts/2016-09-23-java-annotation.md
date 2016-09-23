@@ -28,6 +28,8 @@ tags:
 
 * JDK8注解新特性
 
+附：[项目源码地址](https://github.com/zhuifengshen/AnnotationDemo)
+
 ## 一、Annotation的概念
 
 Annotation(注解)是插入代码中的元数据，在JDK5.0及以后版本引入。它可以在编译期使用预编译工具进行处理, 也可以在运行期使用 Java 反射机制进行处理，用于创建文档，跟踪代码中的依赖性，甚至执行基本编译时检查。因为本质上，Annotion是一种特殊的接口，程序可以通过反射来获取指定程序元素的Annotion对象，然后通过Annotion对象来获取注解里面的元数据。（元数据从metadata一词译来，就是“关于数据的数据”的意思）

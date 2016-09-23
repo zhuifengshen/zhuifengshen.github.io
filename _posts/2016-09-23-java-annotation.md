@@ -577,3 +577,5 @@ public class RepeatAnnotationUseNewVersion {
 [Java Annotations](http://tutorials.jenkov.com/java/annotations.html)
 
 [深入理解Java注解](http://www.cnblogs.com/peida/archive/2013/04/23/3036035.html)
+
+[Java8新特性探究](https://my.oschina.net/benhaile/blog/180932)

@@ -1,6 +1,6 @@
 # 一片互联网净土
 
-![一片互联网净土](./img/home-bg-0.jpg)
+![一片互联网净土](https://raw.githubusercontent.com/zhuifengshen/zhangchuzhao/gh-pages/img/home-bg-o.jpg)
 
 > 话说四块钱的博客长什么样
 

@@ -3,18 +3,18 @@ title: Devin Blog
 SEOTitle: DevinBlog
 header-img: img/home-bg.jpg
 email: zhangchuzhao@foxmail.com
-description: "DevinBlong | Devin的个人博客 | 致力于移动Android/iOS App开发,移动自动化测试,持续集成,质量保障 | 全栈技术人,创客,思考者的天地 "
-keyword: "Devin, DevinZhang, DevinBlog, 个人博客, iOS, Android, App开发, 移动自动化测试, 移动互联网, VR, 创业, 创客"
-url: "http://zhangchuzhao.site"              # your host, for absolute URL
+description: "DevinBlong | Devin的个人博客 | 致力于软件工程质量、敏捷、工程化领域研究"
+keyword: "Devin, DevinBlog, QA, 质量, 性能, 安全, 工程化"
+url: "https://zhuifengshen.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
-RSS: true
-weibo_username:     zhangchuzhao
-zhihu_username:     zhangchuzhao
 github_username:    zhuifengshen
+weibo_username:     zhangchuzhao
+RSS: true
+#zhihu_username:     zhangchuzhao
 #twitter_username:   zhangchuzhao
 #facebook_username:  zhangchuzhao
 
@@ -68,7 +68,7 @@ ga_domain: zhangchuzhao.site
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "*  宁静  致远  爱智  求真  *"
+sidebar-about-description: "* 宁静致远 爱智求真 玩悟尚志 *"
 sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -82,16 +82,16 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "李笑来",
-        href: "http://xiaolai.li/"
+        title: "DingtalkChatbot",
+        href: "https://github.com/zhuifengshen/DingtalkChatbot"
     },{
-        title: "阮一峰",
-        href: "http://www.ruanyifeng.com/home.html"
+        title: "XMind2TestCase",
+        href: "https://github.com/zhuifengshen/xmind2testcase"
     },{
-        title: "廖雪峰",
-        href: "http://www.liaoxuefeng.com/"
+        title: "xmind-python",
+        href: "https://github.com/zhuifengshen/xmind"
     },{
-        title: "陈皓",
-        href: "http://coolshell.cn/"
+        title: "BLOG",
+        href: "https://github.com/zhuifengshen/zhuifengshen.github.io"
     }
 ]

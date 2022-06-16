@@ -82,16 +82,13 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "DingtalkChatbot",
+        title: "1.DingtalkChatbot",
         href: "https://github.com/zhuifengshen/DingtalkChatbot"
     },{
-        title: "XMind2TestCase",
+        title: "2.XMind2TestCase",
         href: "https://github.com/zhuifengshen/xmind2testcase"
     },{
-        title: "XMind-Python",
+        title: "3.XMind-Python",
         href: "https://github.com/zhuifengshen/xmind"
-    },{
-        title: "BLOG",
-        href: "https://github.com/zhuifengshen/zhuifengshen.github.io"
     }
 ]
